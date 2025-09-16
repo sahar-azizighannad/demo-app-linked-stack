@@ -18,4 +18,3 @@ upstream_input "network_stack" {
   type = "stack"
   source = "app.terraform.io/hashicorp/default/demo-network-stack"
 }
-
