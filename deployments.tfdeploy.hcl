@@ -16,5 +16,5 @@ deployment "prod" {
 
 upstream_input "network_stack" {
   type = "stack"
-  source = "app.terraform.io/hashicorp/stacks/demo-network-stack"
+  source = "app.terraform.io/team-runtime/jon-testing/demo-network-linked-stack"
 }
