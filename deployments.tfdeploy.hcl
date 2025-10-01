@@ -16,5 +16,5 @@ deployment "prod" {
 
 upstream_input "network_stack" {
   type = "stack"
-  source = "app.terraform.io/team-runtime/sahar-testing/demo-network-linked-stack"
+  source = "app.staging.terraform.io//the_very_first/default/demo-network-linked-stack"
 }
