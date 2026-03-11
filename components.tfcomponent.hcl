@@ -72,7 +72,7 @@ output "ui_public_hostname" {
 }
 
 output "api_private_hostname" {
-  value = component.api.api_private_hostname
+  value = component.ui.api_private_hostname
   type = string
 }
 
