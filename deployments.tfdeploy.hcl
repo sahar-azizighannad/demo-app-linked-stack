@@ -16,5 +16,5 @@ deployment "prod" {
 
 upstream_input "network_stack" {
   type = "stack"
-  source = "app.staging.terraform.io/the_very_first/default/demo-network-linked-stack"
+  source = "tfcdev-6dad8c28.ngrok.app/hashicorp/Default_Project/demo-network-linked-stack-march11"
 }
